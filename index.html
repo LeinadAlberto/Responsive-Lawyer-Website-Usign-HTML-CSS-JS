@@ -11,10 +11,10 @@
 		<!--=============== FAVICON ===============-->
 		<link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
 
-		<!--=============== REMIXICONS - (Link for icons) ===============-->
+		<!--=============== REMIXICONS ===============-->
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css">
 
-		<!--=============== SWIPER CSS (Link to swiper js) ===============-->
+		<!--=============== SWIPER CSS ===============-->
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8.4.7/swiper-bundle.min.css">
 
 		<!--=============== CSS ===============-->
@@ -26,7 +26,43 @@
 	<body>
 		<!--==================== HEADER & NAV ====================-->
 		<header class="header" id="header">
+			<nav class="nav container">
+				<a href="/index.html" class="nav__logo">Paul Laws</a>
 
+				<div class="nav__menu" id="nav-menu">
+					<ul class="nav__list">
+						<li>
+							<a href="#home" class="nav__link active-link">Home</a>
+						</li>
+
+						<li>
+							<a href="#about" class="nav__link">About</a>
+						</li>
+
+						<li>
+							<a href="#case" class="nav__link">Case Study</a>
+						</li>
+
+						<li>
+							<a href="#services" class="nav__link">Services</a>
+						</li>
+
+						<li>
+							<a href="#contact" class="nav__link">Contact Me</a>
+						</li>
+					</ul>
+
+					<!-- Close -->
+					<button class="nav__close" id="nav-close" aria-label="Close menu">
+						<i class="ri-close-large-line"></i>
+					</button>
+				</div><!-- /.nav__menu -->
+
+				<!-- Toggle -->
+				<button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu">
+					<i class="ri-menu-line"></i>
+				</button>
+			</nav>
 		</header>
 
 		<!--==================== MAIN ====================-->
