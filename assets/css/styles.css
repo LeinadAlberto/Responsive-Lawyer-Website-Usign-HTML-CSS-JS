@@ -363,7 +363,21 @@ img {
 }
 
 /*=============== ABOUT SECTION ===============*/
+.about__data {
+	text-align: center;
+}
 
+.about__description {
+	font: var(--font-semi-bold) var(--h2-font-size) var(--second-font);
+	color: var(--title-color);
+	margin-bottom: 3rem; 
+}
+
+.about__description span {
+	color: var(--first-color);
+	font-style: var(--font-italic);
+	font-size: var(--h1-font-size);
+}
 
 /*=============== CASE SECTION ===============*/
 
