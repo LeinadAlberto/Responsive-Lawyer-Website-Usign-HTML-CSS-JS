@@ -701,9 +701,11 @@ img {
 	.study {
 		padding-bottom: 5rem;
 	}
+
 	.study .section__header {
 		align-items: flex-start;
 	}
+
 	.study__container {
 		margin-top: 4rem;
 		border-radius: 2rem;
@@ -713,14 +715,17 @@ img {
 		align-items: flex-start;
 		row-gap: 3rem;
 	}
+
 	.study__header {
 		padding: 3rem;
 		border-radius: 2rem 2rem 0 0;
 		grid-column: 1/4;
 	}
+
 	.study__title {
 		font-size: var(--h1-font-size);
 	}
+
 	.study__content {
 		padding-inline: 3rem 0;
 		grid-column: 1/2;
@@ -729,16 +734,20 @@ img {
 		padding-inline: 0 3rem;
 		grid-column: 2/4;
 	}
+
 	.study__area .button {
 		justify-self: flex-start;
 	}
+	
 	.study__key-list, .study__status-box, .study__specs {
 		padding: 2rem;
 		border-radius: 1rem;
 	}
+
 	.study__time-group {
 		row-gap: 1.25rem;
 	}
+
 	.study__specs-group {
 		row-gap: 1.5rem;
 	}
@@ -794,10 +803,90 @@ img {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices <> */
+@media (width >= 1150px) {
+	.container {
+		margin-inline: auto;
+	}
 
+	.section {
+		padding-block: 7rem 2rem;
+	}
+
+	.section__title {
+		margin-bottom: 1.5rem;
+		text-align: initial;
+	}
+
+	.section__subtitle {
+		justify-content: initial;
+	}
+
+	.section__header {
+		display: flex;
+		width: 1120px;
+		justify-content: space-between;
+	}
+
+	.section__description {
+		max-width: 500px;
+		text-align: right;
+		margin-inline: initial;
+	}
+}
 
 /* For medium devices <> */
+@media (width >= 768px) {
+	.nav__menu {
+		width: 50%;
+	}
+}
 
 /* For large devices <> */
+@media (width >= 1150px) {
+	.container {
+		margin-inline: auto;
+	}
 
+	.section {
+		padding-block: 7rem 2rem;
+	}
 
+	.section__title {
+		margin-bottom: 1.5rem;
+		text-align: initial;
+	}
+
+	.section__subtitle {
+		justify-content: initial;
+	}
+
+	.section__header {
+		display: flex;
+		width: 1120px;
+		justify-content: space-between;
+	}
+
+	.section__description {
+		max-width: 500px;
+		text-align: right;
+		margin-inline: initial;
+	}
+
+	.nav {
+		height: calc(var(--header-height) + 2rem);
+	}
+
+	.nav__toggle, 
+	.nav__close {
+		display: none;
+	}
+
+	.nav__list {
+		flex-direction: row;
+		column-gap: 3rem;
+	}
+
+	.nav__menu {
+		width: initial;
+	}
+}
